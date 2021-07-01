@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Final - Breno Cardoso Bezerra de Menezes</title>
+
+</head>
+
+<body>
+    <header>
+       <h1 class="titulo">Team Planner - Pokémon</h1>
+       <img class="bola" src="img/pokeball.png" alt="Logo Pokémon">
+    </header>   
+    <div class='adicionar'>
+        <label for="addpokemon">Pokémon:</label>
+        <select id="listaPokemon">
+        </select>
+        <button id="adicionar" onclick="adicionaPokemon()">Adicionar</button>
+    </div>
+    <div id="horizontal">
+    <ul id="container-pokemon">
+    </ul>
+    </div>
+    <span><img class="logo" src="img/pokelogo.png" alt="Logo Pokémon"></span>
+
+    <footer>
+        <div class="autor">Feito por: Breno Cardoso Bezerra de Menezes</div><div class="direitos">© 2021 Pokémon © - Todos os direitos de Pokémon pertecem a  Nintendo/Creatures Inc./GAME FREAK inc. Pokémon</div>
+    </footer>
+
+</body>
+<script src="pokemon-api.js"></script>
+<script src="index.js"></script>
+
+</html>

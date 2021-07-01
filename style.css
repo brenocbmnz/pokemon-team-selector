@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+header{
+  font-family: 'Press Start 2P', cursive;
+  display:flex;
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+
+}
+
+body{
+  background: rgb(244, 255, 254);
+  margin: 0;
+}
+
+ul {
+  font-family: 'Press Start 2P', cursive;
+  display: inline-block;
+  justify-content: center;
+  justify-content: space-between;
+  padding-right:35px;
+  margin-left: 0;
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    background: rgb(240, 255, 246);
+    border: 1px solid rgb(146, 148, 111);
+    width:239.2px;
+    height: 233px;
+    font-size: 1em;
+    font-weight: 100;
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-top: 20px;
+    white-space: 500px;
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+.adicionar{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+select{
+  font-family: 'Press Start 2P', cursive;
+}
+
+.horizontal{
+  margin-left: 0;
+}
+
+li:hover{
+  background: rgb(224, 255, 237);
+}
+
+.sprite{
+    width:133px;
+    height: 133px;
+    display: inline-block;
+    transform: translateY(20px);
+    padding-bottom: 50px;
+}
+
+.tipo{
+  transform: translateY(20px);
+  font-size: 10px;
+}
+
+.titulo{
+  margin-left: 75px;
+}
+
+.bola{
+  opacity: 80%;
+  width: 75px;
+  height: 75px;
+  margin-left: 15px;
+}
+
+.logo{
+  opacity: 40%;
+  padding-top: 25px;
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+    text-transform:capitalize;
+    font-size: 13.5px;
+}
+
+select{
+    text-transform:capitalize
+}
+
+button {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+	background: transparent;
+	color: #4b1d1d;
+	border-radius: 3px;
+	cursor: pointer;
+	overflow: hidden;
+  
+}
+
+li button{
+    width: 100px;
+    height: 50px;
+    display: block;
+}
+
+#adicionar{
+  background-color: #e0fabee8;
+}
+
+#adicionar:hover{
+  background-color: #eeff58e8;
+}
+
+#deletar{
+  background-color: #f1af91e8;
+  border: 2px solid #c86f6f;
+  padding-right: 155px;
+  padding-left: 80.5px;
+}
+
+#editar{
+  background-color: #8db1ffe8;
+  border: 2px solid #003cff;
+  padding-right: 155px;
+  padding-left: 80.5px;
+}
+
+#deletar:hover{
+  background: rgb(231, 101, 62);
+}
+
+#editar:hover{
+  background: rgb(68, 127, 255);
+}
+
+footer{
+  display:flex;
+  font-family: 'Press Start 2P', cursive;
+  justify-content: space-between;
+  background-color: #000000;
+  color:rgb(255, 255, 255);
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 16.7px;
+  font-size: 9px;
+}
+
+footer div{
+  padding-left:250px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 600px){
+  header{
+    font-family: 'Press Start 2P', cursive;
+    display:flex;
+    margin: auto;
+    margin-left:50px;
+    
+  }
+
+  .titulo{
+    margin-left: 0;
+
+  }
+
+  ul {
+    display: inline-block;
+  }
+  
+  li{
+      list-style-type: none;
+      text-align: center;
+      
+  }
+  #deletar{
+    background-color: #f1af91e8;
+    border: 1px solid #c86f6f;
+    
+  }
+
+footer{
+    flex-flow:column;
+    order: 1;
+}
+
+footer div{
+    padding-left:25px;
+    margin: 5px;
+  }
+}
+
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
